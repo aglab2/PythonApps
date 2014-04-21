@@ -36,9 +36,6 @@ class PBar(QtGui.QDialog):
             self.close()
 
 class PingerWindow(QtGui.QWidget):
-    __console_in__ = None
-    __console_out__ = None
-    
     def __init__(self):
         super(PingerWindow, self).__init__()
         self.initUI()
